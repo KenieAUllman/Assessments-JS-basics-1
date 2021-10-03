@@ -45,7 +45,7 @@ let init = { description: 'intialize a direcrtory as a git repo', code: 'git ini
 */
 
 //CODE HERE
-//let clone =
+let clone = { description: "copy", code: "git clone"}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -54,6 +54,7 @@ let init = { description: 'intialize a direcrtory as a git repo', code: 'git ini
 */
 
 //CODE HERE
+let status = { description: "display the state of the repository", code: "git status"}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -62,6 +63,7 @@ let init = { description: 'intialize a direcrtory as a git repo', code: 'git ini
 */
 
 //CODE HERE
+let add = { description: "save", code: "git add"}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -70,7 +72,7 @@ let init = { description: 'intialize a direcrtory as a git repo', code: 'git ini
 */
 
 //CODE HERE
-
+let commit = { description: "captures the current stage", code: "git commit"}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -79,3 +81,4 @@ let init = { description: 'intialize a direcrtory as a git repo', code: 'git ini
 */
 
 //CODE HERE
+let push = { description: "upload to remote repository", code: 'git push'}
